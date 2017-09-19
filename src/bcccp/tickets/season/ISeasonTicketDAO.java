@@ -1,7 +1,7 @@
 package bcccp.tickets.season;
 
 public interface ISeasonTicketDAO {
-	//checking getNumberOfTickets method - integration 
+	//checking getNumberOfTickets method - UAT
 	public void registerTicket(ISeasonTicket ticket);
 	public void deregisterTicket(ISeasonTicket ticket);
 	public int getNumberOfTickets();
