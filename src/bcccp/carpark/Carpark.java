@@ -8,6 +8,7 @@ import bcccp.tickets.adhoc.IAdhocTicketDAO;
 import bcccp.tickets.season.ISeasonTicket;
 import bcccp.tickets.season.ISeasonTicketDAO;
 //unit testing the class carpark
+//unit testing the class ICarpark
 public class Carpark implements ICarpark {
 	
 	private List<ICarparkObserver> observers;
