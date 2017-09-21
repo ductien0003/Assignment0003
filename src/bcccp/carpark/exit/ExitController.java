@@ -53,6 +53,7 @@ public class ExitController
 	
 	private void log(String message) {
 		// I create a test method test1 to test this method
+		// I create a second test to test this method
 		System.out.println("ExitController : " + message);
 	
 	}
