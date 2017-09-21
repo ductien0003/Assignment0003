@@ -31,7 +31,7 @@ public class Carpark implements ICarpark {
 	}
 
 	
-	//testing the methods
+	//testing the functionality of the methods
 	@Override
 	public void register(ICarparkObserver observer) {
 		if (!observers.contains(observer)) {
