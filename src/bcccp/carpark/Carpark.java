@@ -7,7 +7,7 @@ import bcccp.tickets.adhoc.IAdhocTicket;
 import bcccp.tickets.adhoc.IAdhocTicketDAO;
 import bcccp.tickets.season.ISeasonTicket;
 import bcccp.tickets.season.ISeasonTicketDAO;
-//integration testing the class carpark
+//UAT testing the class carpark
 
 public class Carpark implements ICarpark {
 	
