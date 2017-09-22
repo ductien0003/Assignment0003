@@ -95,7 +95,7 @@ public class PaystationController
 	}
 	
 	
-	
+	// I'm testing on the change information display of the system
 	@Override
 	public void ticketPaid() {
 		if (state_ == STATE.WAITING) {
