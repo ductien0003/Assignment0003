@@ -51,7 +51,7 @@ public class CarSensor extends JFrame implements ICarSensor {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		
+		// I'm testing sensoring functionality of the system
 		carDetected = false;
 		JButton detectorButton = new JButton();
 		detectorButton.setFont(new Font("Tahoma", Font.PLAIN, 24));
