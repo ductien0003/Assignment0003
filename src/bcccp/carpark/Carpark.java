@@ -7,6 +7,7 @@ import bcccp.tickets.adhoc.IAdhocTicket;
 import bcccp.tickets.adhoc.IAdhocTicketDAO;
 import bcccp.tickets.season.ISeasonTicket;
 import bcccp.tickets.season.ISeasonTicketDAO;
+//UAT testing the class carpark
 
 public class Carpark implements ICarpark {
 	
@@ -30,7 +31,7 @@ public class Carpark implements ICarpark {
 	}
 
 	
-	
+	//testing the functionality of the methods
 	@Override
 	public void register(ICarparkObserver observer) {
 		if (!observers.contains(observer)) {

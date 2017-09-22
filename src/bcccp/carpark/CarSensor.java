@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 import java.awt.event.ActionEvent;
-
+/UAT testing suppress warnings
 @SuppressWarnings("serial")
 public class CarSensor extends JFrame implements ICarSensor {
 
