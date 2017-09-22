@@ -5,7 +5,7 @@ import bcccp.carpark.ICarSensor;
 import bcccp.carpark.IGate;
 
 public class ExitControllerTest1 {
-	ExitController test1= new ExitController();
-	// I create a test object for this unit testing
+	ExitController test2= new ExitController();
+	
 
 }
