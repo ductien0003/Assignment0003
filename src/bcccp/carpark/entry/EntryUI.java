@@ -45,8 +45,7 @@ public class EntryUI extends JFrame implements IEntryUI {
 		});
 	}
 
-	
-	
+	// I'm testing whether the "full" message is displayed at the entry when the car park is full	
 	/**
 	 * Create the frame.
 	 */
