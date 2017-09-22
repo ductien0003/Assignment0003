@@ -45,8 +45,7 @@ public class EntryUI extends JFrame implements IEntryUI {
 		});
 	}
 
-	
-	
+	// I'm testing whether the "full" message is displayed at the entry when the car park is full	
 	/**
 	 * Create the frame.
 	 */
@@ -73,7 +72,7 @@ public class EntryUI extends JFrame implements IEntryUI {
 		displayTextField.setBounds(10, 15, 288, 82);
 		panel.add(displayTextField);
 		displayTextField.setColumns(10);
-		
+		// i'm testing whether the bar is raised when the user take the ticket 
 		JButton issueAdhocTicketButton = new JButton("Issue Adhoc Ticket");
 		issueAdhocTicketButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

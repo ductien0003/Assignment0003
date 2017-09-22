@@ -29,7 +29,7 @@ public class EntryController
 	private long entryTime;
 	private String seasonTicketId = null;
 	
-	
+	// I'm testing whether ticket be printed after the user press for ticket
 
 	public EntryController(Carpark carpark, IGate entryGate, 
 			ICarSensor os, 
