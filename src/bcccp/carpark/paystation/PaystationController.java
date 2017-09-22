@@ -70,7 +70,7 @@ public class PaystationController
 		}			
 	}
 
-	
+	// I'm testing whether the system can do note, coin , identification and displaying uct test
 	
 	@Override
 	public void ticketInserted(String barcode) {
