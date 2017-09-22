@@ -19,7 +19,7 @@ public class CarSensor extends JFrame implements ICarSensor {
 	private JPanel contentPane;
 	private boolean carDetected;
 	private String detectorId;
-	
+	system.out.println("Integration Testing the functionality");
 	private List<ICarSensorResponder> responders;
 
 	/**
