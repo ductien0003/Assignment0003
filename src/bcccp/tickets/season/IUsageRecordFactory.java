@@ -3,5 +3,5 @@ package bcccp.tickets.season;
 public interface IUsageRecordFactory {
 
 	public IUsageRecord make(String ticketId, long startDateTime);
-	system.out.println("Unit Testing 2");
+	system.out.println("Integration Testing ");
 }
