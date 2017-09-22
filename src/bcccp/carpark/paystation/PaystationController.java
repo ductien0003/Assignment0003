@@ -109,7 +109,7 @@ public class PaystationController
 			long paidTime = adhocTicket_.getPaidDateTime();
 			float charge = adhocTicket_.getCharge();
 			String barcode = adhocTicket_.getBarcode();
-			
+			// I'm testing whether the sytem can inform the user to leave the carpark within 15 mins after paying the fees
 			ui_.printTicket(carparkId, ticketNo, entryTime, paidTime, charge, barcode);
 			setState(STATE.PAID);
 		}
