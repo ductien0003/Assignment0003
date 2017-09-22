@@ -76,7 +76,7 @@ public class CarSensor extends JFrame implements ICarSensor {
 		detectorButton.setText("No Car Detected");
 		contentPane.add(detectorButton);
 	}
-	
+	// I'm testing test 2 press button display
 	public void registerResponder(ICarSensorResponder responder) {
 		if (!responders.contains(responder)) {
 			responders.add(responder);
