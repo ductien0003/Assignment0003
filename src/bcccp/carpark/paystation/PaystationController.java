@@ -18,7 +18,7 @@ public class PaystationController
 	private float charge_;
 	
 	
-// I'm testing the reading ticket functionality of the system
+// I'm testing the reading ticket functionality of the system the second time
 	public PaystationController(ICarpark carpark, IPaystationUI ui) {
 		
 		this.carpark_ = carpark;
