@@ -119,7 +119,7 @@ public class PaystationController
 		}
 	}
 
-	
+	// I'm testing on whether the system can print the details on the ticket
 	
 	@Override
 	public void ticketTaken() {
