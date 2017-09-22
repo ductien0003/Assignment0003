@@ -35,7 +35,9 @@ public class PaystationController
 	}
 
 	
-	
+	// I'm testing whether the system can do charge calculation and displaying the parking fee
+
+
 	private void setState(STATE newState) {
 		switch (newState) {
 		
