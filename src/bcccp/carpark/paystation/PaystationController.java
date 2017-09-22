@@ -70,7 +70,7 @@ public class PaystationController
 		}			
 	}
 
-	
+	// I'm testing whether the system can do note, coin , identification and displaying uct test
 	
 	@Override
 	public void ticketInserted(String barcode) {
@@ -95,7 +95,7 @@ public class PaystationController
 	}
 	
 	
-	
+	// I'm testing on the change information display of the system
 	@Override
 	public void ticketPaid() {
 		if (state_ == STATE.WAITING) {
