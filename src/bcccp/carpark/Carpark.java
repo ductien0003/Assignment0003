@@ -62,6 +62,7 @@ public class Carpark implements ICarpark {
 	public String getName() {
 		return carparkId;
 	}
+
 	
 	
 	
@@ -90,7 +91,11 @@ public class Carpark implements ICarpark {
 		//TODO Implement charge logic
 		return 3.0f;
 	}
-
+public static void main(String args[])
+{
+Carpark cp=new Carpark("audi",3,null, null)
+System.out.println("The total charge is:" +cp.calculatedAddHocTicketCharge(22/07/2017));
+}
 	
 	
 	@Override
