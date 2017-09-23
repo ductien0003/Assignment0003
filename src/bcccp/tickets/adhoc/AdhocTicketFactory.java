@@ -7,5 +7,11 @@ public class AdhocTicketFactory implements IAdhocTicketFactory {
 		String barcode = "A" + Integer.toHexString(ticketNo);
 		return new AdhocTicket(carparkId, ticketNo, barcode);
 	}
+public static void main(String args[]) 
+{
+
+AdhocTicketFactory atf= new AddhocTicketFactory();
+System.out.println("The carparkid is:+atf.make("11225", 12345)
+
 
 }
