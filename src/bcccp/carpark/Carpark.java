@@ -100,7 +100,7 @@ public class Carpark implements ICarpark {
 		return ticket != null;
 	}
 
-	
+
 	
 	@Override
 	public void registerSeasonTicket(ISeasonTicket seasonTicket) {
@@ -169,6 +169,10 @@ public class Carpark implements ICarpark {
 	}
 
 
+	public static void main(String args[])
+{Carpark cs=new Carpark("1122",3, "ubi112",null)
+System.out.println("The testing of the Barcode of car:"+cs.getAdhocTicket());
+}
 
 
 
