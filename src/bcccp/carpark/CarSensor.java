@@ -102,4 +102,6 @@ public class CarSensor extends JFrame implements ICarSensor {
 {
 CarSensor cs=new CarSensor("1122", 3, 4);
 System.out.println("Testing the carID:"+cs.getId());
+System.out.printl("The car is Detected:"cs.carIsDetected());
+
 	}
