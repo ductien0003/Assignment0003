@@ -30,6 +30,11 @@ public class SeasonTicket implements ISeasonTicket {
 	public String getId() {
 		return ticketId;
 	}
+public static void main(String args[]) 
+{
+SeasonTicket st=new SeasonTicket("12345", null,null,null)
+System.out.println("The Ticket of the Car is:"+st.getId());}
+
 
 
 	@Override
