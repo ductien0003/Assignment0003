@@ -11,7 +11,8 @@ public static void main(String args[])
 {
 
 AdhocTicketFactory atf= new AddhocTicketFactory();
-System.out.println("The carparkid is:+atf.make("11225", 12345)
+System.out.println("The carparkid is:+atf.make("11225", null);
+System.out.println("the ticket number is:atf.make(null, 12345);
 
 
 }
