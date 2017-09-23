@@ -94,6 +94,8 @@ public static void main(String args[])
 {
 Carpark cp=new Carpark("audi",3,null, null)
 System.out.println("The total charge is:" +cp.calculatedAddHocTicketCharge(22/07/2017));
+System.out.printl("The issueAdhocTicket is:"+cp.adhocTicketDAO.createdTikcet(1122)");
+}
 }
 	
 	
