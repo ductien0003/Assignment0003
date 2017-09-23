@@ -98,7 +98,8 @@ public class CarSensor extends JFrame implements ICarSensor {
 	public boolean carIsDetected() {
 		return carDetected;
 	}
-	
-	
-
-}
+	pulic static void main(String args[]) 
+{
+CarSensor cs=new CarSensor("1122", 3, 4);
+System.out.println("Testing the carID:"+cs.getId());
+	}
