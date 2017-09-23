@@ -32,9 +32,9 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 public static void main(String args[]) 
 {
-SeasonTicket st=new SeasonTicket("12345", "1122",null,null)
+SeasonTicket st=new SeasonTicket("12345", "1122",11.sep.2017,null)
 System.out.println("The carparkid of the Car is:"+st.getId());
-System.out.println("The ticket id of the Car is:"+st.getId());
+System.out.println("The valid time start:"+st.getStartValidPeriod());
 }
 
 
